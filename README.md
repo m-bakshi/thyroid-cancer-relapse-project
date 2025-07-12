@@ -3,19 +3,27 @@ Thyroid Cancer Recurrence Prediction
 This project uses machine learning (Random Forest Classifier) to predict the likelihood of thyroid cancer recurrence/relapse based on patient data. The dataset includes clinical, pathological and demographic features, and the model provides insights into which features most impact recurrence.
 
 Dataset
+
 File: thyroid_cancer.zip, contains dataset.csv
 The dataset includes information such as gender, smoking history, pathology, tumor stage (T,N,M) and treatment response.
 Target variable: Recurred (Yes/No) - mapped to binary (1/0)
 
 Libraries Used
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib
+
 joblib
+
 zipfile
 
 Project Workflow
+
 Data Extraction: Reads the compressed CSV file from a zip archive.
 
 Preprocessing: Handles missing values using forward fill. Encodes categorical variables using one-hot encoding and scales numerical features using StandardScaler.
@@ -29,6 +37,7 @@ Model Export: Saves the trained model as a .joblib file for future use.
 Feature Importance Visualization: Visualizes the top 10 most important features in predicting recurrence.
 
 Results
+
 Model Evaluation:
 Accuracy: 0.987012987012987
 
