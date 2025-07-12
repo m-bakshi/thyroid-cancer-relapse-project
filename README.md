@@ -1,4 +1,5 @@
 Thyroid Cancer Recurrence Prediction
+
 This project uses machine learning (Random Forest Classifier) to predict the likelihood of thyroid cancer recurrence/relapse based on patient data. The dataset includes clinical, pathological and demographic features, and the model provides insights into which features most impact recurrence.
 
 Dataset
